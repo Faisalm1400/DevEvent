@@ -6,6 +6,27 @@ export const events = [
     location: "San Francisco, CA",
     date: "March 15, 2024",
     time: "9:00 AM - 6:00 PM",
+    overview:
+      "React Conf 2024 brings together the global React community for a full day of learning, inspiration, and connection. Hosted in San Francisco, this year’s event focuses on React 19, Server Components, and the latest innovations shaping modern frontend development.\n\nWhether you're a seasoned engineer or just starting out, you'll gain insights from the React core team, explore real-world case studies, and connect with fellow developers through keynotes, technical sessions, and interactive panels.",
+    eventDetails: {
+      venue: "Moscone Center",
+      capacity: 1200,
+      format: "In-person",
+      registrationFee: "$299",
+    },
+    agenda: [
+      { time: "9:00 AM", topic: "Opening Keynote by Dan Abramov" },
+      { time: "10:30 AM", topic: "React Server Components Deep Dive" },
+      { time: "1:00 PM", topic: "Lunch & Networking" },
+      { time: "2:00 PM", topic: "React 19: What's New" },
+      { time: "4:00 PM", topic: "Panel: The Future of Frontend" },
+    ],
+    organizer: {
+      name: "React Core Team",
+      bio: "The official React team at Meta, driving innovation in frontend development.",
+      contact: "events@reactconf.com",
+    },
+    tags: ["React", "Frontend", "JavaScript", "Conference"],
   },
   {
     slug: "nextjs-summit",
@@ -14,6 +35,27 @@ export const events = [
     location: "Austin, TX",
     date: "April 22, 2024",
     time: "10:00 AM - 5:00 PM",
+    overview:
+      "Next.js Summit is a one-day event focused on the future of fullstack development with Next.js. Hosted by Vercel, this summit explores the App Router, Edge Functions, and performance strategies for modern web apps.\n\nAttendees will hear from the Next.js team, learn best practices for scaling apps, and connect with developers building the next generation of web experiences.",
+    eventDetails: {
+      venue: "Austin Convention Center",
+      capacity: 800,
+      format: "Hybrid",
+      registrationFee: "$249",
+    },
+    agenda: [
+      { time: "10:00 AM", topic: "Welcome & Opening Remarks" },
+      { time: "11:00 AM", topic: "Edge Functions in Production" },
+      { time: "1:00 PM", topic: "Lunch Break" },
+      { time: "2:00 PM", topic: "Next.js App Router Patterns" },
+      { time: "4:00 PM", topic: "Live Q&A with Vercel Engineers" },
+    ],
+    organizer: {
+      name: "Vercel",
+      bio: "Creators of Next.js, focused on building the future of the web.",
+      contact: "summit@vercel.com",
+    },
+    tags: ["Next.js", "Fullstack", "Performance", "Vercel"],
   },
   {
     slug: "javascript-world",
@@ -22,6 +64,27 @@ export const events = [
     location: "New York, NY",
     date: "May 8, 2024",
     time: "8:30 AM - 7:00 PM",
+    overview:
+      "JavaScript World Conference is the largest JS-focused event in North America, bringing together developers, educators, and industry leaders to explore the latest in frameworks, tooling, and language evolution.\n\nExpect deep dives into TypeScript, Node.js, and emerging trends like WASM and edge computing, plus hands-on workshops and networking opportunities.",
+    eventDetails: {
+      venue: "Javits Center",
+      capacity: 1500,
+      format: "In-person",
+      registrationFee: "$349",
+    },
+    agenda: [
+      { time: "8:30 AM", topic: "Registration & Breakfast" },
+      { time: "9:30 AM", topic: "Keynote: The Future of JavaScript" },
+      { time: "11:00 AM", topic: "TypeScript in Large Codebases" },
+      { time: "2:00 PM", topic: "Node.js Performance Tuning" },
+      { time: "5:00 PM", topic: "Closing Panel & Networking" },
+    ],
+    organizer: {
+      name: "JS World Team",
+      bio: "A global team of JavaScript educators and event organizers.",
+      contact: "info@jsworldconf.com",
+    },
+    tags: ["JavaScript", "TypeScript", "Node.js", "Conference"],
   },
   {
     slug: "ai-hackathon-2024",
@@ -30,6 +93,25 @@ export const events = [
     location: "Seattle, WA",
     date: "June 14-16, 2024",
     time: "48 Hours",
+    overview:
+      "AI Innovation Hackathon is a 48-hour sprint where developers, data scientists, and designers collaborate to build AI-powered solutions. Hosted in Seattle, this event challenges participants to solve real-world problems using machine learning and generative AI.\n\nTeams compete for prizes, mentorship, and exposure, while gaining hands-on experience with cutting-edge tools and frameworks.",
+    eventDetails: {
+      venue: "Seattle Tech Hub",
+      capacity: 300,
+      format: "In-person",
+      registrationFee: "$99",
+    },
+    agenda: [
+      { time: "Day 1", topic: "Kickoff & Team Formation" },
+      { time: "Day 2", topic: "Development & Mentorship Sessions" },
+      { time: "Day 3", topic: "Final Presentations & Awards" },
+    ],
+    organizer: {
+      name: "AI Builders Network",
+      bio: "A community of AI enthusiasts and professionals driving innovation through collaborative events.",
+      contact: "contact@aibuilders.dev",
+    },
+    tags: ["AI", "Hackathon", "Machine Learning", "Innovation"],
   },
   {
     slug: "web3-developer-meetup",
@@ -38,6 +120,26 @@ export const events = [
     location: "Miami, FL",
     date: "July 20, 2024",
     time: "6:00 PM - 9:00 PM",
+    overview:
+      "Web3 Developer Meetup is a casual evening gathering for blockchain developers, smart contract engineers, and crypto enthusiasts. Hosted in Miami, this meetup features lightning talks, demos, and open discussions on the future of decentralized tech.\n\nWhether you're building on Ethereum, Solana, or exploring DAOs, this is a great chance to connect and share ideas.",
+    eventDetails: {
+      venue: "The Lab Miami",
+      capacity: 150,
+      format: "In-person",
+      registrationFee: "Free",
+    },
+    agenda: [
+      { time: "6:00 PM", topic: "Welcome & Networking" },
+      { time: "6:30 PM", topic: "Lightning Talks: Smart Contracts & DAOs" },
+      { time: "7:30 PM", topic: "Open Mic & Demos" },
+      { time: "8:30 PM", topic: "Closing Remarks" },
+    ],
+    organizer: {
+      name: "Web3 Builders Collective",
+      bio: "A grassroots group of developers and founders advancing decentralized technologies.",
+      contact: "hello@web3meetup.io",
+    },
+    tags: ["Web3", "Blockchain", "Ethereum", "Meetup"],
   },
   {
     slug: "fullstack-conference",
@@ -46,53 +148,26 @@ export const events = [
     location: "Denver, CO",
     date: "August 12, 2024",
     time: "9:00 AM - 6:00 PM",
-  },
-  {
-    slug: "devops-unleashed",
-    image: "/images/event1.png",
-    title: "DevOps Unleashed",
-    location: "Chicago, IL",
-    date: "September 5, 2024",
-    time: "8:00 AM - 5:30 PM",
-  },
-  {
-    slug: "mobile-dev-summit",
-    image: "/images/event2.png",
-    title: "Mobile Development Summit",
-    location: "Los Angeles, CA",
-    date: "October 18, 2024",
-    time: "9:30 AM - 6:00 PM",
-  },
-  {
-    slug: "cybersecurity-conference",
-    image: "/images/event3.png",
-    title: "Cybersecurity Conference",
-    location: "Boston, MA",
-    date: "November 2, 2024",
-    time: "8:00 AM - 7:00 PM",
-  },
-  {
-    slug: "data-science-hackathon",
-    image: "/images/event4.png",
-    title: "Data Science Hackathon",
-    location: "San Diego, CA",
-    date: "December 7-9, 2024",
-    time: "72 Hours",
-  },
-  {
-    slug: "cloud-native-meetup",
-    image: "/images/event5.png",
-    title: "Cloud Native Meetup",
-    location: "Portland, OR",
-    date: "January 15, 2025",
-    time: "6:30 PM - 9:00 PM",
-  },
-  {
-    slug: "frontend-masters",
-    image: "/images/event6.png",
-    title: "Frontend Masters Conference",
-    location: "Nashville, TN",
-    date: "February 28, 2025",
-    time: "9:00 AM - 5:00 PM",
+    overview:
+      "Full Stack Conference is a one-day event for developers who build across the stack — from databases to UI. Hosted in Denver, it covers modern architectures, API design, and performance optimization.\n\nExpect practical sessions, real-world case studies, and networking with engineers who ship scalable, maintainable fullstack apps.",
+    eventDetails: {
+      venue: "Colorado Convention Center",
+      capacity: 1000,
+      format: "In-person",
+      registrationFee: "$279",
+    },
+    agenda: [
+      { time: "9:00 AM", topic: "Opening Keynote: Scaling Fullstack Teams" },
+      { time: "10:30 AM", topic: "Modern API Design with GraphQL & REST" },
+      { time: "1:00 PM", topic: "Lunch & Expo Walkthrough" },
+      { time: "2:00 PM", topic: "Optimizing Frontend Performance in React" },
+      { time: "4:00 PM", topic: "Panel: Backend Trends & DevOps Culture" },
+    ],
+    organizer: {
+      name: "Fullstack Alliance",
+      bio: "A developer-led organization focused on empowering fullstack engineers through events, education, and community.",
+      contact: "team@fullstackconf.dev",
+    },
+    tags: ["Fullstack", "React", "Node.js", "Architecture", "DevOps"],
   },
 ];
